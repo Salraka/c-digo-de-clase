@@ -7,7 +7,7 @@ public class Youtube {
         System.out.println("---");
         
         Usuario usu2 = new Usuario ("Fernanda");
-        Comentario commt1 = new Comentario("Excelente video. ", usu2);
+        Comentario commt1 = new Comentario("Excelente video, que divertido. ", usu2);
         
         System.out.println("El usuario: " + usu2.getNombre() + "    Realizo el comentario: " + commt1.getContenido());
                
